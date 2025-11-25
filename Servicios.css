@@ -1,0 +1,52 @@
+/* Fondo general */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Cuadro centrado */
+.contenedor {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Título */
+.contenedor h1 {
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+/* Contenedor de botones */
+.botones {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Botones principales */
+.btn {
+  background-color: #0056b3;
+  color: white;
+  border: none;
+  padding: 12px 0;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Efecto hover */
+.btn:hover {
+  text-decoration: underline;
+  background-color: #0073e6;
+}
